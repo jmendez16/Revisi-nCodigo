@@ -21,7 +21,7 @@
 	<input type="submit" name="Ingreso" id="Ingreso" value="LOG IN"></td>
 	
 	<td colspan="2">
-		<%if((session.getAttribute("loginFallido") != null) && (!session.getAttribute("loginFallido").equals(""))){%>
+		<%if((session.getAttribute("loginFallido") null) && (!session.getAttribute("loginFallido").equals(""))){%>
 		<%=session.getAttribute("loginFallido")%>
 		<%}%>
 		</td>
